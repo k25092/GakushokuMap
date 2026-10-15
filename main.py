@@ -2,11 +2,13 @@ from maps.GakushokuSample import GakushokuSample
 from maps.Itsuki_prefer import GakushokuSample as ItsukiGakushoku
 from maps.minataniosusume import minataniosusume
 from maps.AbstractGakushoku import AbstractGakushoku
+from maps.momokaOsusume import momokaOsusume
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
 data = [
     GakushokuSample(),
     ItsukiGakushoku(),
     minataniosusume(),
+    momokaOsusume(),
     AbstractGakushoku()
 ]
 
