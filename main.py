@@ -1,4 +1,10 @@
-from maps.minataniosusume import minataniosusume
+from maps.GakushokuSample import GakushokuSample
+from maps.k25092Osusume import k25092Osusume
+# ↓のリストには、メンバーの各オススメ学食が格納されます。
+data = [GakushokuSample(), 
+        k25092Osusume()
+    ]
+from maps.GakushokuSample import GakushokuSample
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
 data = [ 
     minataniosusume()
